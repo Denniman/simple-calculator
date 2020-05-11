@@ -51,7 +51,6 @@ function flushOperation(intBuffer) {
     runningTotal -= intBuffer;
   } else if (previousOperator === "x") {
     runningTotal *= intBuffer;
-    console.log('Times')
   } else {
     runningTotal /= intBuffer;
   }
